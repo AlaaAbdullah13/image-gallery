@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="lightbox">
+        <div class="wrapper">
+            <header>
+                <div class="photo">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-260q75 0 127.5-52.5T660-440q0-75-52.5-127.5T480-620q-75 0-127.5 52.5T300-440q0 75 52.5 127.5T480-260Zm0-80q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM160-120q-33 0-56.5-23.5T80-200v-480q0-33 23.5-56.5T160-760h126l74-80h240l74 80h126q33 0 56.5 23.5T880-680v480q0 33-23.5 56.5T800-120H160Zm0-80h640v-480H638l-73-80H395l-73 80H160v480Zm320-240Z"/></svg>
+                    <span></span>
+                </div>
+                <div class="buttons">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="down"   clheight="24px" viewBox="0 -960 960 960" width="24px" fill="#00000"><path d="M480-350.08q-6.46 0-11.92-2.11-5.46-2.12-10.7-7.35L352.62-464.31q-5.85-5.84-6.12-13.77-.27-7.92 6.12-14.54 6.61-6.61 14.26-6.73 7.66-.11 14.27 6.5L460-414v-326q0-8.54 5.73-14.27T480-760q8.54 0 14.27 5.73T500-740v326l78.85-78.85q5.84-5.84 13.88-6.11 8.04-.27 14.65 6.34 6.39 6.62 6.5 14.16.12 7.54-6.5 14.15L502.62-359.54q-5.24 5.23-10.7 7.35-5.46 2.11-11.92 2.11ZM264.62-200q-27.62 0-46.12-18.5Q200-237 200-264.62v-76.92q0-8.54 5.73-14.27t14.27-5.73q8.54 0 14.27 5.73t5.73 14.27v76.92q0 9.24 7.69 16.93 7.69 7.69 16.93 7.69h430.76q9.24 0 16.93-7.69 7.69-7.69 7.69-16.93v-76.92q0-8.54 5.73-14.27t14.27-5.73q8.54 0 14.27 5.73t5.73 14.27v76.92q0 27.62-18.5 46.12Q723-200 695.38-200H264.62Z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="exit"   height="20px" viewBox="0 -960 960 960" width="20px" fill="#000000"><path d="M291-267.69 267.69-291l189-189-189-189L291-692.31l189 189 189-189L692.31-669l-189 189 189 189L669-267.69l-189-189-189 189Z"/></svg>
+                </div>
+            </header>
+            <div class="preview-img">
+                <div class="img"><img  src="" alt="image"></div>
+
+            </div>
+
+        </div>
+    </div>
+    <section class="search">
+        <img src="asseta/search5.jpg">
+        <div class="content">
+            <h1>welcome to our image gallery </h1>
+            <p> you can search and download any image you want easy and fast</p>
+         </div>
+         <div class="search-box">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368"><path d="M792-120.67 532.67-380q-30 25.33-69.64 39.67Q423.39-326 378.67-326q-108.44 0-183.56-75.17Q120-476.33 120-583.33t75.17-182.17q75.16-75.17 182.5-75.17 107.33 0 182.16 75.17 74.84 75.17 74.84 182.27 0 43.23-14 82.9-14 39.66-40.67 73l260 258.66-48 48Zm-414-272q79.17 0 134.58-55.83Q568-504.33 568-583.33q0-79-55.42-134.84Q457.17-774 378-774q-79.72 0-135.53 55.83-55.8 55.84-55.8 134.84t55.8 134.83q55.81 55.83 135.53 55.83Z"/></svg>
+            <input type="search" placeholder="search image">
+         </div>
+    </section>
+    <section class="gallery">
+        <ul class="images"></ul>
+        <button class="loadmore">Load More</button>
+    </section>
+
+    
+</body>
+</html>
